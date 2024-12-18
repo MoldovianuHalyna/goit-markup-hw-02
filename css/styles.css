@@ -9,8 +9,8 @@ body {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  line-height: 1.17px;
-  letter-spacing: 0.03%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
   font-weight: bold;
@@ -22,13 +22,13 @@ body {
 .nav--link {
   color: #2e2f42;
   font-weight: 500;
-  letter-spacing: 0.02%;
+  letter-spacing: 0.02em;
 }
 
 .nav--link:hover {
   color: #404bbf;
 }
-.nav--link:active {
+.nav--link:focus {
   color: #404bbf;
 }
 .address {
@@ -37,13 +37,13 @@ body {
 .address--link {
   color: #434455;
   font-weight: medium;
-  letter-spacing: 0.02%;
+  letter-spacing: 0.02em;
 }
 
 .address--link:hover {
   color: #404bbf;
 }
-.address--link:active {
+.address--link:focus {
   color: #404bbf;
 }
 .section--title {
@@ -54,7 +54,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02%;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 .button--service {
@@ -62,7 +62,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0.04%;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
@@ -70,24 +70,43 @@ body {
 .button--service:hover {
   background-color: #404bbf;
 }
-.button--service:active {
+.button--service:focus {
   background-color: #404bbf;
 }
-.strategy {
+.feature {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .strategy--text {
-  letter-spacing: 0.02%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 .section--3 {
   background-color: #f4f4fd;
 }
+.teamcard {
+  background-color: #ffffff;
+}
 .our--team {
   font-weight: bold;
   font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.post-description {
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
